@@ -32,6 +32,12 @@ Weights can be negative, hence why we take the absolute value when calculating t
 
 Naturally the question is how do we calculate the weights. As mentioned earlier, we want a higher weight for users who are highly correlated and a lower one for those who aren't. It is then natural to use Pearson's Correlation Coefficient as our weights.
 $$\rho_{i_x,i_y}=\frac{Cov(i_x, i_y)}{\sigma_{x}\sigma_y}$$
+Note that this can be simplified as:
+$$
+\rho_{i_x i_y}=\frac{\sum_{i=1}^n\left(x_i-\bar{x}\right)\left(y_i-\bar{y}\right)}{\sqrt{\sum_{i=1}^n\left(x_i-\bar{x}\right)^2} \sqrt{\sum_{i=1}^n\left(y_i-\bar{y}\right)^2}}
+$$
+This second version of the pearson correlation is very useful as now we can calculate the entire pearson correlation matrix using matrix operations on the user-movie matrix without needing to loop through each user-user pair. For more information check person note.
+
 Where $i_x$ and $i_y$ are 2 different users, note that the correlation is calculated from the movies that both users have rated, i.e. those in common. This however introduces new problems.
 - What if 2 users have no movies in common, or just a few?
 - If zero, then we don't consider that user for the purpose of calculating the deviation, i.e. set the weight to zero
