@@ -1,0 +1,1 @@
+Note that the notation on the matrix factorization section is done using column vectors. The $i$-th row of a matrix X is $x_i$ but this is rather the column vector obtained from the $i$-th row of X. So if we wanted a row vector of X, then we have $x^T_i$.

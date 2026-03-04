@@ -1,0 +1,2 @@
+Words and vocabulary are discrete categorical objects which makes it hard to work with them for training models. Neural networks and the like work with numbers as input so it doesn't make sense to pass in a word. A word embedding, maps every word to a corresponding feature vector. By doing so we can capture relationships between the words using their feature vectors, for example:
+King - Man $\approx$ Queen - Woman
