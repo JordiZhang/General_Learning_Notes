@@ -1,0 +1,4 @@
+In essence a Naive Bayes Classifier assumes every input is independent and then uses Bayes's Rule as the main algorithm. Recall
+$$p(Y|X) = \frac{p(X|Y)p(Y)}{p(X)}$$
+where $Y$ are the classes and $X$ is the data to be classified. We model the input variables as having probability distribution of our choice as is appropriate, this may be a gaussian, multinomial or any other distribution. For example, in spam detection we model them as appearance rate of words. We then find the posterior probability distributions and classify according to which posterior has the highest probability. In practice, the denominator doesn't matter as it simply is a constant that can be factored out, and so we classify like so:
+$$k^*= argmax_k p(Y = k|X)$$

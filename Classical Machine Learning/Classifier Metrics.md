@@ -1,0 +1,6 @@
+- Accuracy
+- Sensitivity and Specificity
+- Confusion Matrix
+- F1-Score
+- ROC and AUC
+- Precision and Recall
