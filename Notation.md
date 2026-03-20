@@ -1,0 +1,1 @@
+We utilize across all the notes column vector convention. Loss functions are denoted with $L$ while likelihood is denoted as $L_{\text{likelihood}}$, although there may be times we omit the subscript and rely on context
