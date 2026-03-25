@@ -1,1 +1,2 @@
 We utilize across all the notes column vector convention. Loss functions are denoted with $L$ while likelihood is denoted as $L_{\text{likelihood}}$, although there may be times we omit the subscript and rely on context. Also some derivations are not explicitly shown but instead described roughly as it is assumed the reader (i.e. me) has familiarity with how to do it already, and it should serve mostly as a refresher. 
+$N(x,y)$ specifically means $x=\mu$ and $y=\sigma^2$.
