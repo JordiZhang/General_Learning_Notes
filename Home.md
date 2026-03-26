@@ -4,7 +4,7 @@ id: 06c36d46-3ece-4721-8e39-1ccfd18b6500
 folderPath: ""
 title: "{{folderName}} overview"
 showTitle: false
-depth: 3
+depth: 2
 style: explorer
 includeTypes:
   - folder
