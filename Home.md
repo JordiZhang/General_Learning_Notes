@@ -1,4 +1,4 @@
-There is a clear overlap of topics within each of the folders and in fact many of the algorithms and models can be applied to many different fields. The one thing to take into account is that we refer to classical machine learning or just machine learning as models that do not utilize deep learning. Deep learning models have their own section. Though some topics like transformers are uniquely deep learning.
+There is a clear overlap of topics within each of the folders and in fact many of the algorithms and models can be applied to many different fields. The one thing to take into account is that we refer to classical machine learning as models that do not utilize deep learning and are also general models, as in can be used widely unlike models like ARIMA which are time-series specific. Deep learning models have their own section. Though some topics like transformers are uniquely deep learning.
 ```folder-overview
 id: 06c36d46-3ece-4721-8e39-1ccfd18b6500
 folderPath: ""
