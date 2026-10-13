@@ -1,0 +1,13 @@
+- LSTM and GRUs
+- Geometric Deep Learning -> Graph Neural Networks, [Geometric Deep Learning Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/pdf/2104.13478)
+- Parametric models, SMPL, though this one seems to be a specialized architecture for a very specific medical use case
+- 3D Models: Neural Fields (NeRF, Gaussian Splats)
+- GANs
+- Diffusion based models, also Langevin dynamics
+- Transformers -> BERT, RoBERT and the like
+- Reinforcement Learning
+- Distributed Training
+- Kullback-Leibler Divergences and model uses
+- VAEs
+- Two Tower Models/Multi Tower Architectures
+- Mixture models/Mixture of Experts

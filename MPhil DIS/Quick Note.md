@@ -1,0 +1,1 @@
+This folder will contain all of my notes of any courses taken during my MPhil in Data Intensive Science at the University of Cambridge. The notes will later be consolidated with the rest of the vault rather than being its own separate category. As usual, I will only take notes for things I consider important or useful to have noted down.
