@@ -1,4 +1,4 @@
-- LSTM and GRUs
+- LSTM and GRUs, Truth be to kind of outdated
 - Geometric Deep Learning -> Graph Neural Networks, [Geometric Deep Learning Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/pdf/2104.13478)
 - Parametric models, SMPL, though this one seems to be a specialized architecture for a very specific medical use case
 - 3D Models: Neural Fields (NeRF, Gaussian Splats)
